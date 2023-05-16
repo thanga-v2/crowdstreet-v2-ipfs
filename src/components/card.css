@@ -1,0 +1,98 @@
+body {
+    background-color: #eaeff1;
+    font-family: "Raleway", sans-serif;
+}
+img {
+    width: 100%;
+    border-radius: 14px;
+    height: 220px;
+    object-fit: cover;
+}
+#container {
+    max-width: 500px;
+  
+    /* Center the container in middle on horizontal axis */
+    margin: 0 auto;
+  
+    /* Add empty space above the container (20% of the view height) */
+    margin-top: 20;
+
+  }
+
+  .rounded-input {
+    padding:5px;
+    border-radius:10px;
+  }
+.card {
+    /* Change background color */
+    background-color: white;
+  
+    /* Add border */
+    border: 2px solid #000000;
+  
+    /* Add space between the border and the content */
+    padding: 20px;
+  
+    border-radius: 12px;
+
+    align-content: flex-start;
+
+    overflow: 'scroll';
+
+  }  
+  
+  /* Style div elements that have class equal to tag */
+  .tag {
+    padding: 4px 8px;
+    border: 1px solid #e5eaed;
+  
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #788697;
+  }
+  
+  /* Style div elements that have class equal to name */
+  .name {
+    font-size: 24px;
+    font-weight: 600;
+  
+    margin-top: 16px;
+  }
+  
+  /* Style p element */
+  p {
+    font-size: 14px;
+    color: #7f8c9b;
+    line-height: 150%;
+  }
+  
+  /* Style button element */
+  button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+  
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;
+  
+    /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
+    margin: 0 auto;
+    display: block;
+  
+    /* Button is a clickable element, therefore it should have a pointer cursor */
+    cursor: pointer;
+  }
+  
+  .card__details {
+    /* Add space around the details */
+    padding: 16px 8px 8px 8px;
+  }
+
+button:focus,
+button:hover {
+  background-color: #69a0f8;
+  color: #e0efff;
+}
+

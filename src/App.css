@@ -1,5 +1,11 @@
-.App {
-  text-align: center;
+.App, body {
+    text-align: center;
+    height: 100vh;
+    /*background-image: url('../src/images/hero-business-processes-1333524556-1440x750.webp');*/
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: top center;
 }
 
 .App-logo {
@@ -11,6 +17,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+  .App {
+    background-position: center center;
+}
 }
 
 .App-header {
